@@ -1,14 +1,20 @@
-// import {Fa}
+import image from '../../assets/logo.png'
+import Button from '@mui/material/Button'
+import { MdMenuOpen } from "react-icons/md";
+import { MdOutlineMenu } from "react-icons/md";
+
+
 const Navbar = () => {
   return (
-    <div className='flex flex-row'>
+    <header className='flex flex-row w-full h-12 bg-white'>
       <div className="flex items-center flex-row">
-        <img src="" alt="" />
-        <p>Mayank</p>
+        <img src={image} alt="" className='h-10'/>
+        <p className='font-bold'>Mayank</p>
       </div>
-
-
-    </div>
+    <Button variant="contained" className='h-8 w-24'>Contained</Button>
+    <MdMenuOpen />
+    <MdOutlineMenu />
+    </header>
   )
 }
 
