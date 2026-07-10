@@ -7,5 +7,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-
-
+input[type="search"] {
+  padding-left: 0;
+}
