@@ -9,7 +9,7 @@ const DashbordLayout = () => {
             <main>
                 <Home />
             </main>
-            {/* <Footer />   */}
+            <Footer />  
         </div>
     )
 }
